@@ -27,8 +27,8 @@ endfunction()
 function(voroffset_download_eigen)
 	voroffset_download_project(eigen
 		GIT_REPOSITORY https://gitlab.com/libeigen/eigen.git
-	    GIT_TAG tags/3.3.7
-    	GIT_SHALLOW TRUE
+		GIT_TAG tags/3.3.7
+		GIT_SHALLOW TRUE
 	)
 endfunction()
 
