@@ -16,7 +16,8 @@ find_path(GEOGRAM_SOURCE_INCLUDE_DIR
 )
 
 set(GEOGRAM_ROOT ${GEOGRAM_SOURCE_INCLUDE_DIR}/../..)
-
+set(BUILD_SHARED_LIBRARIES OFF)
+set(VORPALINE_BUILD_DYNAMIC OFF)
 ################################################################################
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
