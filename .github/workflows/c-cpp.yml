@@ -13,9 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: mkdir
-      run: mkdir build && cd build
     - name: cmake
-      run: cmake ..
+      run: cmake
     - name: build
       run: cmake --build . -j8 --config Release
