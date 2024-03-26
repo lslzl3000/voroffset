@@ -33,7 +33,7 @@ include(CMakeToolsHelpers OPTIONAL)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 # Build shared or static?
-set(BUILD_SHARED_LIBRARIES OFF)
+set(BUILD_SHARED_LIBRARIES ON)
 
 ################################################################################
 
