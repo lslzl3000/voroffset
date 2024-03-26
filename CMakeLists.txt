@@ -33,7 +33,9 @@ include(CMakeToolsHelpers OPTIONAL)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 # Build shared or static?
-set(BUILD_SHARED_LIBRARIES ON)
+set(BUILD_SHARED_LIBRARIES OFF)
+
+set(VORPALINE_BUILD_DYNAMIC OFF)
 
 ################################################################################
 
