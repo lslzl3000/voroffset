@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: cmake
-      run: cmake -DCMAKE_BUILD_TYPE=Release .
+      run: cmake -DCMAKE_BUILD_TYPE=Release -DVORPALINE_BUILD_DYNAMIC=OFF .
     - name: build
       run: make -j 2
     - name: ls
