@@ -14,9 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: cmake
-      run: cmake .
+      run: cmake -DCMAKE_BUILD_TYPE=Release .
     - name: build
-      run: cmake --build . -j8 --config Release
+      run: make -j 2
     - name: ls
       run: ls -l
 
