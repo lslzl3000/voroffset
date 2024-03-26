@@ -17,3 +17,5 @@ jobs:
       run: cmake .
     - name: build
       run: cmake --build . -j8 --config Release
+    - name: ls
+      run: ls -l
